@@ -4,3 +4,14 @@
     <h1>Healthy Foods</h1>
   </div>
 </template>
+
+
+<script>
+import AddFood from '@/components/AddFood.vue'
+export default {
+  name: 'content',
+  components: {
+    AddFood
+  }
+}
+</script>
